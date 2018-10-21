@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114253059867021032}
   m_Layer: 0
   m_Name: LargeCloudPerfab
-  m_TagString: SmallCloudTag
+  m_TagString: LargeCloudTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

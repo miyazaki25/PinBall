@@ -16,14 +16,17 @@ public class Score : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //スコアを表示
-        this.scoreText.GetComponent<Text>().text = score.ToString();
+        
+
     }
    
     //スコアにポイントを追加する関数
     public void AddPoint(int point)
     {
         score = score + point;
+        //スコアを表示
+        this.scoreText.GetComponent<Text>().text = score.ToString();
+
     }
 
     void OnCollisionEnter(Collision collision)
